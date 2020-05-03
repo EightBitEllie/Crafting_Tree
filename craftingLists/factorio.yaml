@@ -1,0 +1,18 @@
+# items: []
+recipes:
+  - name: Iron Plates
+    inputs:
+    - name: Iron Ore
+      count: 1
+    outputs:
+    - name: Iron Plate
+      count: 1
+    tools: [Hand, AM1, AM2, AM3]
+  - name: Iron Gear Wheel
+    inputs:
+    - name: Iron Plate
+      count: 2
+    outputs:
+    - name: Iron Gear Wheel
+      count: 1
+    tools: [Hand, AM1, AM2, AM3]
